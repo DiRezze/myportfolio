@@ -1,5 +1,5 @@
 import React from 'react';
-import { projects } from '../const/projects';
+import { projects } from '../constants/projects';
 import ProjectCard from './projectCard';
 
 const ProjectList = () => {
