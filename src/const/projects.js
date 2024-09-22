@@ -1,0 +1,43 @@
+export const projects = [{
+        name: "Calculadora IMC",
+        desc: "Uma calculadora de índice de massa corporal feito com React.js e TypeSript.",
+        img: "/wp01.png",
+        stack: ["react", "ts", "bootstrap"],
+        id: '01',
+    },
+    {
+        name: "Task Manager",
+        desc: "Uma lista de tarefas que consiste em um CRUD simples com JS puro.",
+        img: "/tskMng.png",
+        stack: ["html", "css", "js"],
+        id: '02',
+    },
+    {
+        name: "App Clima",
+        desc: "Uma lista de tarefas que consiste em um CRUD simples com JS puro.",
+        img: "/tskMng.png",
+        stack: ["react", "tailwind", "js"],
+        id: '03',
+    },
+    {
+        name: "Sorteador",
+        desc: "Um app simples que sorteia um número de 1 a 100",
+        img: "/tskMng.png",
+        stack: ["kotlin"],
+        id: '04',
+    },
+    {
+        name: "InteliNest App",
+        desc: "Um app simples que sorteia um número de 1 a 100",
+        img: "/tskMng.png",
+        stack: ["react","ts", "tailwind", "firebase"],
+        id: '05',
+    },
+    {
+        name: "Esp8266 led toggle",
+        desc: "Um app simples que sorteia um número de 1 a 100",
+        img: "/tskMng.png",
+        stack: ["cpp", "js"],
+        id: '06',
+    },
+];
