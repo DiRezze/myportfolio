@@ -6,8 +6,8 @@ import StackList from './stackList';
 
 const ProjectCard = ({title, description, imgSrc, link, stack}) => {
     return(
-        <div className='card-container'>
-            <div className='card-cover' style={{backgroundImage: `url(${imgSrc})`}}>
+        <div className='card-container' style={{backgroundImage: `url(${imgSrc})`}}>
+            <div className='card-cover'>
                 <div className='card-stack'>
                     <StackList thisList={stack} /> 
                 </div>
